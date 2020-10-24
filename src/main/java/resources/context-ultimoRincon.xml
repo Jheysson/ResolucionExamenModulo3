@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	  <!-- PRODUCTO -->
+	<bean id="idCEProducto" class="pe.unjfsc.daw.spring5.entity.CEProducto">
+	</bean>
+	
+	<bean id="idCMProducto"   class="pe.unjfsc.daw.spring5.logical.impl.CMProducto">
+	</bean>
+	
+	<!-- CLIENTE -->
+	
+	<bean id="idCECliente" class="pe.unjfsc.daw.spring5.entity.CECliente">
+	</bean>
+	
+	<bean id="idCMCliente"   class="pe.unjfsc.daw.spring5.logical.impl.CMCliente">
+	</bean>
+
+	<!-- COMPRA EFECTUADA -->
+	
+	<bean id="idCECompraEfectuada" class="pe.unjfsc.daw.spring5.entity.CECompraEfectuada">
+	</bean>
+	
+	<bean id="idCMCompraEfectuada"   class="pe.unjfsc.daw.spring5.logical.impl.CMCompraEfectuada">
+	</bean>
+</beans>
